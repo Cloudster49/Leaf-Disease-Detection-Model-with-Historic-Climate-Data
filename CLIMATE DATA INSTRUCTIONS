@@ -1,0 +1,47 @@
+This project uses historical climate data to support environmental analysis. The dataset used in this implementation comes from the Copernicus Climate Data Store (ERA5).
+
+1. Copernicus Climate Data Store (ERA5)
+
+The primary source used for this project is the ERA5 Reanalysis dataset, which provides global historical climate data.
+
+You can access the dataset here:
+https://cds.climate.copernicus.eu/
+
+Steps:
+
+Create a free account on the Copernicus Climate Data Store.
+
+Navigate to the ERA5 dataset.
+
+Select the climate variables needed for your project (temperature, humidity, pressure, etc.).
+
+Define your geographic location parameters and date range.
+
+Export the data in .grib format.
+
+Because this project is designed to be adaptable, you will need to define your own geographic boundaries and time range based on the region you are analyzing.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+2. NOAA Global Forecast System (GRIB2)
+
+If you prefer working with .grib2 files, you can obtain climate data from the NOAA Global Forecast System (GFS).
+
+Download data here:
+https://nomads.ncep.noaa.gov/
+
+NOAA provides atmospheric and weather model data commonly used in meteorology and climate analysis.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+3. NASA POWER Climate Data (CSV / JSON)
+
+If .grib formats are not required for your workflow, NASA provides climate datasets in easier-to-process formats such as CSV and JSON.
+
+Access the dataset here:
+https://power.larc.nasa.gov
+
+These datasets are commonly used for:
+
+agricultural modeling
+
+environmental research
+
+climate impact analysis
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
