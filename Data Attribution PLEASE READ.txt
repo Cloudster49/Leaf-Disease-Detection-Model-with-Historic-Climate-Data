@@ -1,14 +1,14 @@
 ## Dataset Attribution
 
-This project uses a grape leaf disease image dataset licensed under the
-Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0).
+This project uses the **Plant Leaf Disease Dataset** hosted on Kaggle.
 
-**Source:** https://www.kaggle.com/datasets/bmshahriaalam/grape-leaf-disease
-**Author(s):** B. M. Shahria Alam  
-**License:** CC BY-SA 4.0  
-**License URL:** https://creativecommons.org/licenses/by-sa/4.0/
+**Source:** https://www.kaggle.com/datasets/vbhanu5ai/plant-leaf-disease-dataset
+**Author:** vbhanu5ai
+**License:** Creative Commons CC0 1.0 (Public Domain)
+**License URL:** https://creativecommons.org/publicdomain/zero/1.0/
 
-The dataset was used to train and evaluate a convolutional neural network
-for grape leaf disease classification. Images were resized, augmented,
-and split into training and validation sets as part of the preprocessing
-pipeline.
+The dataset contains labeled images of plant leaves representing different plant species and disease conditions. These images were used to train and evaluate a convolutional neural network (CNN) designed for plant disease classification.
+
+During preprocessing, the images were resized to a consistent input resolution and augmented to improve model generalization. The dataset was then split into training and validation sets to support model development and evaluation.
+
+Although the dataset is released under the CC0 1.0 Public Domain license and does not require attribution, credit is provided to acknowledge the original dataset creator and their contribution to the research community.
